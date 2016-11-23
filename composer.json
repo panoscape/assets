@@ -1,0 +1,25 @@
+{
+    "name": "panoscape/assets",
+    "description": "Assets/Resource storage managment for Laravel",
+    "keywords": [
+        "laravel", "media", "resource", "assets"
+    ],
+    "homepage": "https://github.com/panoscape/assets",
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/support": "^5.3",
+        "ralouphie/mimey": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sean Cheung",
+            "email": "theoxuanx@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Panoscape\\Assets\\": "src/"
+        }
+    }
+}
