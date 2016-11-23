@@ -57,7 +57,7 @@ class User extends Authenticatable
 }
 ```
 
-Add `HasAssets` trait to the model that will be tracked.
+Add `HasAssets` trait to the model that uses assets.
 
 ```php
 <?php
@@ -67,7 +67,7 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 use Panoscape\Assets\HasAssets;
 
-class Project extends Model
+class Article extends Model
 {
     use HasAssets;
 }
@@ -98,7 +98,7 @@ $asset->owner();
 $asset->hasOwner();
 
 //get items of a specific type which use this asset
-$asset->itemsOf(App\Project::class);
+$asset->itemsOf(App\Article::class);
 
 //get url
 $asset->url();
