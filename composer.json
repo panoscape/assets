@@ -4,7 +4,7 @@
     "keywords": [
         "laravel", "media", "resource", "assets"
     ],
-    "homepage": "https://github.com/panoscape/assets",
+    "homepage": "https://github.com/seancheung/assets",
     "require": {
         "php": ">=5.6.4",
         "illuminate/support": "^5.3",
